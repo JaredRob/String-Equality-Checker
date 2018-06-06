@@ -15,7 +15,8 @@ public class Main {
         for (char c: tChar) {
             tList.add(Character.valueOf(c));
         }
-
+        if (sList.equals(tList))
+            return 0;
         int i = 0;
         if (sChar.length <= tChar.length) {
             return 0;
